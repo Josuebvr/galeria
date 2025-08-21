@@ -151,7 +151,7 @@ h5 {
 footer {
     background: #000000;
     color: #ffffff;
-    padding: 1.5rem 0;
+    padding: 0.5rem 0;
     font-size: 1rem;
     text-align: center;
     width: 100%;
@@ -198,6 +198,32 @@ ul {
 ul li {
     text-align: left;
     list-style-position: inside;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.rede {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem 1.5rem;
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icone-rede {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 900px) {
