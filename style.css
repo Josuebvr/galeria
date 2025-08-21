@@ -11,7 +11,7 @@ header {
     background: #FFCFFF;
     border-radius: 12px;
     margin: 20px auto 0 auto;
-    max-width: 1800px; 
+    max-width: 1800px;
 }
 
 h1 {
@@ -88,4 +88,16 @@ footer {
     /* texto preto */
     padding: 1.5rem 0;
     font-size: 1rem;
+}
+
+@media (max-width: 900px) {
+    .galeria {
+        grid-template-columns: 1fr;
+        /* apenas uma coluna */
+    }
+
+    .item img {
+        height: 300px;
+        /* opcional: reduz altura da imagem em telas menores */
+    }
 }
