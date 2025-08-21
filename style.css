@@ -6,12 +6,17 @@ body {
     text-align: center;
 }
 
-header {
-    padding: 2rem;
-    background: #FFCFFF;
-    border-radius: 12px;
-    margin: 20px auto 0 auto;
+.container {
     max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+header {
+    padding: 2rem 0;
+    background: #f0ccf0;
+    border-radius: 12px;
+    margin: 20px 0 0 0;
 }
 
 h1 {
@@ -23,11 +28,12 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
-    padding: 20px;
+    margin: 0;
+    padding: 20px 0;
 }
 
 .item {
-    background: #FFCFFF;
+    background: #ffffff;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
@@ -93,11 +99,9 @@ footer {
 @media (max-width: 900px) {
     .galeria {
         grid-template-columns: 1fr;
-        /* apenas uma coluna */
     }
 
     .item img {
         height: 300px;
-        /* opcional: reduz altura da imagem em telas menores */
     }
 }
