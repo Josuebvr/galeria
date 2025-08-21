@@ -10,6 +10,8 @@ header {
     padding: 2rem;
     background: #FFCFFF;
     border-radius: 12px;
+    margin: 20px auto 0 auto;
+    max-width: 1800px; 
 }
 
 h1 {
@@ -20,7 +22,6 @@ h1 {
 .galeria {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* sempre 3 colunas */
     gap: 15px;
     padding: 20px;
 }
