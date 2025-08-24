@@ -205,13 +205,14 @@ ul li {
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
-    margin-top: 2rem;
+    margin-top: 2rem; 
 }
 
 .rede {
-    background: #fff;
+    background: #ffffff;
     border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     padding: 2rem 1.5rem;
     max-width: 300px;
     text-align: center;
